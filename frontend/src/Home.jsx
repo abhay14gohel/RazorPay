@@ -46,7 +46,7 @@ export const Home = () => {
   };
   return (
     <div>
-      <button onClick={handleCkeckOut}>click</button>
+      <button onClick={handleCkeckOut} className="bg-green-500">Make Payment</button>
     </div>
   );
 };

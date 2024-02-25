@@ -8,4 +8,8 @@ export const PaymentSuccess = () => {
 
   
   return <div>
-  <h1>Payment Compl
+  <h1>Payment Completed</h1>
+  <p>
+    {paramValue}
+  </p></div>;
+};
